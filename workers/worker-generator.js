@@ -3,14 +3,14 @@ addEventListener('fetch', event => {
 });
 
 const tokenURL = 'https://www.googleapis.com/oauth2/v4/token';
-const clientId = '';
-const clientSecret = '';
+const clientId = '967009849432-4nk87stg5djn0qjqqen4vr95u9414cq2.apps.googleusercontent.com';
+const clientSecret = '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';
 const grantType = 'authorization_code';
-const redirectURI = 'https://example.com';
-const jsURL = 'https://gitlab.com/GoogleDriveIndex/Google-Drive-Index/-/raw/master/worker/worker-super.js';
+const redirectURI = 'https://generator.panicgq.workers.dev';
+const jsURL = 'https://raw.githubusercontent.com/ts4rebels/gdi/main/workers/worker-super.js';
 
 async function handleRequest(request) {
-    let title = getParameterByName(request.url, 'site_name') || 'Bhadoo Drive Index';
+    let title = getParameterByName(request.url, 'site_name') || 'GDrive Index';
     let auth_code = getParameterByName(request.url, 'auth_code');
     let root = getParameterByName(request.url, 'root') || 'root';
     let user = getParameterByName(request.url, 'user') || '';
@@ -325,7 +325,6 @@ async function handleRequest(request) {
     <div id="thirdstep1" class="overflow-auto" style="background-color:#000;">
         <pre class="snippet"><code class="html js">${codeJS}</code></pre>
     </div>
-    <center><p>© <span id="year"></span> - Bhadoo Cloud Cyber Systems</p></center>
 </div>
 
 <script>
