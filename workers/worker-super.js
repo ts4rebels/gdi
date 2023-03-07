@@ -37,7 +37,7 @@ const authConfig = {
     "enable_auth0_com": false, // follow guide to add auth0.com to secure index with powerful login based system
     "roots":[
       {
-          "id": "root",
+          "id": "1Ght79KbPCadU-hm84OBlFKzTx8TBQHUg",
           "name": "The Vault",
           "protect_file_link": false,
          // "auth": {"username":"password"} /* Remove double slash before "auth" to activate id password protection */
