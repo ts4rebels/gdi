@@ -7,7 +7,7 @@ const clientId = '967009849432-4nk87stg5djn0qjqqen4vr95u9414cq2.apps.googleuserc
 const clientSecret = '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';
 const grantType = 'authorization_code';
 const redirectURI = 'https://generator.panicgq.workers.dev';
-const jsURL = 'https://gitlab.com/GoogleDriveIndex/Google-Drive-Index/-/raw/master/worker/worker-super.js';
+const jsURL = 'https://raw.githubusercontent.com/ts4rebels/gdi/main/workers/worker-super.js';
 
 async function handleRequest(request) {
   let title = getParameterByName(request.url, 'site_name') || 'Bhadoo Drive Index';
