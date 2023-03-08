@@ -159,7 +159,7 @@ function html(current_drive_order = 0, model = {}) {
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdn.plyr.io/${uiConfig.plyr_io_version}/plyr.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.0/dist/${uiConfig.theme}/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-  <style>a{color:${uiConfig.css_a_tag_color};}p{color:${uiConfig.css_p_tag_color};}</style>
+  <style>body{background-image: none;}a{color:${uiConfig.css_a_tag_color};}p{color:${uiConfig.css_p_tag_color};}</style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ts4rebels/vault@main/styles.css" />
   <script src="https://cdn.jsdelivr.net/gh/ts4rebels/vault@main/js/app.obf.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.12.313/build/pdf.min.js"></script>
@@ -189,7 +189,7 @@ const homepage = `<!DOCTYPE html>
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
       <link rel="stylesheet" href="https://cdn.plyr.io/${uiConfig.plyr_io_version}/plyr.css" />
       <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.0/dist/${uiConfig.theme}/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-      <style>a{color:${uiConfig.css_a_tag_color};}p{color:${uiConfig.css_p_tag_color};}</style>
+      <style>body{background-image: none;}a{color:${uiConfig.css_a_tag_color};}p{color:${uiConfig.css_p_tag_color};}</style>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ts4rebels/vault@main/styles.css" />
       <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
    </head>
