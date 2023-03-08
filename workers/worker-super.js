@@ -85,7 +85,7 @@ const uiConfig = {
     "show_logout_button": false, // shows logout button if auth0.com is active
     "fixed_footer": false, // If you want the footer to be flexible or fixed.
     "hide_footer": true, // hides the footer from site entirely.
-    "header_style_class": "navbar-dark bg-primary", // navbar-dark bg-primary || navbar-dark bg-dark || navbar-light bg-light
+    "header_style_class": "navbar-dark bg-dark", // navbar-dark bg-primary || navbar-dark bg-dark || navbar-light bg-light
     "footer_style_class": "bg-primary", // bg-primary || bg-dark || bg-light
     "css_a_tag_color": "white", // Color Name or Hex Code eg. #ffffff
     "css_p_tag_color": "white", // Color Name or Hex Code eg. #ffffff
@@ -160,9 +160,12 @@ function html(current_drive_order = 0, model = {}) {
   <link rel="stylesheet" href="https://cdn.plyr.io/${uiConfig.plyr_io_version}/plyr.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.0/dist/${uiConfig.theme}/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   <style>a{color:${uiConfig.css_a_tag_color};}p{color:${uiConfig.css_p_tag_color};}</style>
-  <script src="${uiConfig.jsdelivr_cdn_src}@${uiConfig.version}/js/app.obf.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ts4rebels/vault@main/styles.css" />
+  <script src="https://cdn.jsdelivr.net/gh/ts4rebels/vault@main/js/app.obf.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.12.313/build/pdf.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked@4.0.0/marked.min.js"></script>
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <script data-cfasync="false" src="//d2vwl2vhlatm2f.cloudfront.net/?vlwvd=959709"></script
 </head>
 <body>
 </body>
@@ -187,6 +190,8 @@ const homepage = `<!DOCTYPE html>
       <link rel="stylesheet" href="https://cdn.plyr.io/${uiConfig.plyr_io_version}/plyr.css" />
       <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.0/dist/${uiConfig.theme}/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
       <style>a{color:${uiConfig.css_a_tag_color};}p{color:${uiConfig.css_p_tag_color};}</style>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ts4rebels/vault@main/styles.css" />
+      <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
    </head>
    <body>
       <header>
