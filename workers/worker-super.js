@@ -217,8 +217,8 @@ const homepage = `<!DOCTYPE html>
                         ${uiConfig.show_logout_button ?'<li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li>': ''}
                      </ul>
                      <form class="d-flex" method="get" action="/0:search">
-                        <input class="form-control me-2" name="q" type="search" placeholder="Search" aria-label="Search" value="" required="">
-                        <button class="btn btn btn-danger" onclick="if($('#search_bar_form>input').val()) $('#search_bar_form').submit();" type="submit">Search</button>
+                        <input class="form-control me-2" name="q" type="search" placeholder="Search doesn't work..." aria-label="Search" value="" required="" disabled>
+                        <button class="btn btn btn-danger" onclick="if($('#search_bar_form>input').val()) $('#search_bar_form').submit();" type="submit" disabled><span class="iconify" data-icon="line-md:close-circle" data-width="24" data-height="24"></span></button>
                      </form>
                   </div>
                </div>
@@ -238,7 +238,7 @@ const homepage = `<!DOCTYPE html>
                <div id="list" class="list-group text-break">
 
                </div>
-               <div class="${uiConfig.file_count_alert_class} text-center" role="alert" id="count">Total <span id="n_drives" class="number text-center"></span> drives</div>
+               <div class="${uiConfig.file_count_alert_class} text-center" role="alert" id="count"><span class="iconify" data-icon="line-md:cloud" data-width="24" data-height="24"></span></div>
             </div>
          </div>
          <div class="modal fade" id="SearchModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="SearchModelLabel" aria-hidden="true">
